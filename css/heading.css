@@ -1,4 +1,28 @@
-     
+/*基本デザイン　見出し*/
+
+.widget .widgettitle span {
+border: 1px solid rgba(255,255,255,.6);
+display: block;
+width: 100%;
+height: 100%;
+padding: .9em .8em;
+}
+.widgettitle {
+    background: #4b99b5;
+    color: #fff;
+    font-size: 1em;
+    padding: 3px;
+    margin-bottom: .75em;
+    margin-top: 0;
+}
+h3 {
+    font-size: 1.1em;
+
+    
+    background-color: #f8cbd9;
+ 
+}
+/*個人日記　見出し*/
 h12 {
     position: relative;
     background: #e95383;

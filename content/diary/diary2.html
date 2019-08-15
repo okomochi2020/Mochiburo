@@ -51,21 +51,21 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../about-us.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../service.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../portfolio.html">Portfolio</a></li>
                         <li class="nav-item dropdown submenu active">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Blog
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                                <li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-                                <li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
+                                <li class="nav-item"><a class="nav-link" href="../../blog.html">Blog</a></li>
+                                <li class="nav-item"><a class="nav-link" href="../../single-blog.html">Blog Details</a></li>
+                                <li class="nav-item"><a class="nav-link" href="../../elements.html">Elements</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../contact.html">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -102,7 +102,7 @@
                                     </div>
                                 </div>
                                 <div class="blog_text">
-                                    <a href="#"><h4><font color="#e95383">デジタル資産　音楽ライブラリの管理の手引</font></h4></a>
+                                    <h4><font color="#e95383">デジタル資産　音楽ライブラリの管理の手引</font></h4>
                                     <div class="blog_author">
                                         <a href="#"><font color="#e95383">編集者：Admin</font></a>
                                         <a href="#"><font color="#e95383">#ファイル管理</font></a>
@@ -139,24 +139,33 @@
                                             <tr>
                                               <td><img src="../../img/blog/3.png" alt=""width="50" height="35"> Dドライブ</td>
                                               <td>ドキュメント用<br>（DocumentMaster）</td>
-                                              <td>500GB</td>
+                                              <td>200GB</td>
                                               <td>ドライブ2<br>HDD分割2/1</td>
                                             </tr>
                                             　<td><img src="../../img/blog/3.png" alt=""width="50" height="35"> Eドライブ</td>
                                               <td>ミュージック用<br>（MusicMaster）</td>
-                                              <td>500GB</td>
+                                              <td>200GB</td>
                                               <td>ドライブ2<br>HDD分割2/2</td>
                                             </tr>
                                             　<td><img src="../../img/blog/3.png" alt=""width="50" height="35"> Fドライブ</td>
-                                              <td>ビデオ用<br>（VideoMaster）</td>
-                                              <td>500GB</td>
-                                              <td>ドライブ3<br>HDD分割無し独占</td>
+                                              <td>ピクチャー用<br>（MusicMaster）</td>
+                                              <td>200GB</td>
+                                              <td>ドライブ3<br>HDD分割2/2</td>
                                             </tr>
                                             　<td><img src="../../img/blog/3.png" alt=""width="50" height="35"> Gドライブ</td>
                                            　 <td>ゲーム用<br>（GamesMaster）</td>
                                               <td>500GB</td>
+                                              <td>ドライブ5<br>HDD分割無し独占</td>
+                                            </tr>
+                                           　 <td><img src="../../img/blog/3.png" alt=""width="50" height="35"> Hドライブ</td>
+                                              <td>プライベート用<br>（PrivateMaster）</td>
+                                              <td>200GB</td>
                                               <td>ドライブ4<br>HDD分割無し独占</td>
                                             </tr>
+                                            　<td><img src="../../img/blog/3.png" alt=""width="50" height="35"> Iドライブ</td>
+                                              <td>ビデオ用<br>（VideoMaster）</td>
+                                              <td>500GB</td>
+                                              <td>ドライブ4<br>HDD分割無し独占</td>
                                           </table>
 
                                     <h12>ドライブ用にアイコンを作っておいた</h12>
@@ -243,12 +252,36 @@
                                     </span>
                                 </div>
                             </aside>
+
+
+
+
+
+
+
+
                             <aside class="r_widget categories_widget">
-                                <div class="r_w_title">
-                                    <h3>Categories</h3>
+                                    <div id="archives-2" class="widget widget_archive">
+                                    <h3 class="widgettitle"><span>アーカイブ</span></h3>
+                                    <label class="screen-reader-text" for="archives-dropdown-2">アーカイブ</label>
+                                    <select id="archives-dropdown-2" name="archive-dropdown" onchange="document.location.href=this.options[this.selectedIndex].value;">…</select>
                                 </div>
+                                <div id="categories-2" class="widget widget_categories">
+                                        <h4 class="widgettitle">
+                                        <span>カテゴリー</span>
+                                    </h4>
+                                    <ul>
+                                    <li class="cat-item cat-item-193">
+                                            ::before
+                                            <a href="https://chimolog.co/category/amazon/">
+                                                "Amazon "
+                                                <span class="count">(6)</span>
+                                                ::after
+                                            </a>
+                                            ::after
+                                        </li>
                                 <ul>
-                                    <li><a href="#">Vestibulum maximus</a></li>
+                                    <li><a href="#">Amazon</a></li>
                                     <li><a href="#">Nisi eu lobortis pharetra</a></li>
                                     <li><a href="#">Orci quam accumsan</a></li>
                                     <li><a href="#">Auguen pharetra massa</a></li>
