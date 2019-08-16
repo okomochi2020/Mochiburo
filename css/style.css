@@ -198,7 +198,7 @@ i:before {
   height: 3px;
   width: 25px;
   display: block;
-  background: #0b1033;
+  background: #5c6b80;
   margin-bottom: 3px;
 }
 
@@ -342,7 +342,6 @@ i:before {
 
 .banner_area:before {
   content: "";
-  background: url(../img/banner/banner-bg.png) no-repeat scroll center right;
   position: absolute;
   right: 0px;
   top: 0px;
@@ -352,15 +351,14 @@ i:before {
 }
 
 .banner_inner_text {
-  padding-top: 200px;
+  padding-top: 50px;
   position: relative;
-  padding-bottom: 95px;
 }
 
 .banner_inner_text:before {
   content: "";
   width: 213px;
-  height: 1px;
+  height: 0px;
   position: absolute;
   background: #ced0e0;
   left: 0px;
